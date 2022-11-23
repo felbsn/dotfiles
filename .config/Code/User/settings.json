@@ -1,0 +1,28 @@
+{
+    "telemetry.telemetryLevel": "off",
+    "workbench.iconTheme": "vscode-icons",
+    "svelte.enable-ts-plugin": true,
+    "svelte.plugin.svelte.note-new-transformation": false,
+    "window.titleBarStyle": "custom",
+    //svelte things
+    "svelte.plugin.svelte.defaultScriptLanguage": "ts",
+    "svelte.plugin.svelte.format.config.svelteBracketNewLine": false,
+    "svelte.plugin.css.globals": "**/global.scss",
+    "svelte.plugin.svelte.compilerWarnings": {
+        "a11y-click-events-have-key-events": "ignore"
+    },
+    "editor.minimap.enabled": false,
+    "workbench.startupEditor": "none",
+    "editor.formatOnSave": true,
+    "path-intellisense.mappings": {
+        "/": "${workspaceFolder}/static",
+    },
+    //disable ejs thing, that corrupts
+    "[ejs]": {
+        "editor.formatOnSave": false
+    },
+    "[html]": {
+        "editor.formatOnSave": false
+    },
+    //custom
+}

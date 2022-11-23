@@ -1,0 +1,91 @@
+
+/* add a 3-pixel border around windows */
+decoration {
+    /** border: 5px solid rgba(10, 10, 10, .3); */
+    /** background:rgba(255, 255, 44, .9); */
+    
+    /* background:rgba(44, 44, 44, .4); */
+}
+
+window {
+	/** border-radius:12px;*/
+}
+
+
+/* customize the titlebar for active window */
+.titlebar {
+    /*background: rgba(255, 10, 10, .9);
+    background:rgba(44, 44, 44, .4); */
+    /* border-top:solid 1px rgba(10, 10, 10, .3); */
+     /*color:white;  */
+}
+
+
+/* customize the titlebar for background windows 
+.titlebar:backdrop  {
+    background: rgba(10, 10, 10, .5);
+    color:white;
+} */
+
+
+.titlebar {
+/* background:red;*/
+background:rgba(44,44,44,1);
+background:rgba(44,44,44,0.4);
+  box-shadow: none;
+}
+
+
+terminal-window scrollbar {
+
+	background:none;
+}
+
+.nautilus-window scrollbar {
+
+background:none;
+border:none;
+}
+
+
+.nautilus-window header button {
+
+background:rgba(44,44,44, 0.0);
+}
+
+
+.nautilus-window  header button {
+
+	border:none;
+}
+
+
+window.nautilus-window {
+ background:rgba(44,44,44,0.6);
+}
+
+.nautilus-window.background.csd notebook > stack {
+ background:transparent;
+ background:rgba(44,44,44,0.7);
+ background:transparent;
+}
+
+.nautilus-window .titlebar {
+  background:transparent;
+  background:transparent !important;
+}
+
+.nautilus-window .sidebar-row:selected *{
+	 background:transparent;
+	 border-bottom-color:red;
+	 border-image:none;
+	 
+}
+
+.popup-menu { 
+	  background:rgba(44,44,44,0.7);
+
+}
+
+
+
